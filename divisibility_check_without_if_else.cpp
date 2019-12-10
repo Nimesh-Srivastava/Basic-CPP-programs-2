@@ -6,9 +6,7 @@ using namespace std;
 
 int main()
 {
-
 	system("cls");
-	
         int a;
 	cout << "Enter a number : ";
 	cin >> a;
