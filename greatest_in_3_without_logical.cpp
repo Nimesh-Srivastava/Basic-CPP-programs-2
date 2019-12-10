@@ -3,7 +3,8 @@
 using namespace std;
 int main()
 {
-int a, b, c;
+	system("cls");
+	int a, b, c;
 	cout << "Enter number 1 : ";
 	cin >> a;
 	cout << "Enter number 2 : ";
@@ -30,6 +31,6 @@ int a, b, c;
 	int c3 = ((a + b) + (a - b)) / 2;
 	int c4 = ((c3 + c) + (c3 - c)) / 2;
 	cout << "Highest : " << c2 << " > " << c1 << " > " << c4 << " : Lowest" <<endl;
-  (void)_getch();
-  return 0;
+	(void)_getch();
+  	return 0;
 }
