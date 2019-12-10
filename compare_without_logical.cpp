@@ -5,8 +5,8 @@ using namespace std;
 
 int main ()
 {
-system ("cls");
-int a, b;
+	system ("cls");
+	int a, b;
 	cout << "Enter number 1 : " << endl;
 	cin >> a;
 	cout << "Enter number 2 : " << endl;
@@ -19,6 +19,6 @@ int a, b;
 	{
 		cout << "Numbers are same";
 	}
-(void)_getch();
-return 0;
+	(void)_getch();
+	return 0;
 }
