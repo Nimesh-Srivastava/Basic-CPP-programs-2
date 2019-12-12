@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main ()
+void main ()
 {
 	system ("cls");
 	int a, b;
@@ -20,5 +20,4 @@ int main ()
 		cout << "Numbers are same";
 	}
 	(void)_getch();
-	return 0;
 }
