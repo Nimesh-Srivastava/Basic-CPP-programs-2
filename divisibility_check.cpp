@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int main()
+void main()
 {
-  system("cls");
+        system("cls");
 	int a;
 	cout << "Enter a number : ";
 	cin >> a;
@@ -31,6 +31,5 @@ int main()
 			cout << "Number is divisible by 11";
 		}
 	}
-  (void)_getch();
-  return 0;
+        (void)_getch();
 }	
