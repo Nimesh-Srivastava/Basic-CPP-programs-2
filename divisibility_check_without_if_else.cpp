@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+void main()
 {
 	system("cls");
         int a;
@@ -12,5 +12,4 @@ int main()
 	cin >> a;
 	a / 55 ? cout << "Number is divisible by both 5 and 11" << endl : cout << "Number is not divisible by both 5 and 11";
         (void)_getch();
-        return 0;
 }
