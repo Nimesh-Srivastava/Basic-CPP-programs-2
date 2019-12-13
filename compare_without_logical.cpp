@@ -19,5 +19,6 @@ void main ()
 	{
 		cout << "Numbers are same";
 	}
-	(void)_getch();
+	
+        (void)_getch();
 }
