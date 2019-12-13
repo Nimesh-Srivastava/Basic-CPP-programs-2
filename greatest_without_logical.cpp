@@ -1,7 +1,9 @@
 #include <iostream>
 #include <conio.h>
+
 using namespace std;
-int main()
+
+void main()
 {
 	system("cls");
 	int n1,n2;
@@ -10,6 +12,6 @@ int main()
 	cout<<"Enter number 2 : ";
 	cin>>n2;
 	cout << "Greater number is : " << ((n1 + n2) + (n1 - n2)) / 2;
-  (void)_getch();
-  return 0;
+        
+        (void)_getch();
 }
